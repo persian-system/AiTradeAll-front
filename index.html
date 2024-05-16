@@ -33,6 +33,8 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -246,7 +248,45 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section layout_padding" style="width: 99%;margin: auto; border-radius: 20px;">
+    <div class="container  ">
+      <div class="heading_container heading_center" data-aos="fade-up">
+        <h2>
+          Tradingview <span>Chart</span>
+        </h2>
+
+      </div>
+      <div class="row">
+
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="detail-box">
+            <h3>
+              Tradingview Chart
+            </h3>
+            <p>
+              AiTradeall is proud to utilize TradingView technology to display trading data on charts, including data
+              from the Oman market. TradingView is a charting platform cherished by millions of traders and investors
+              worldwide. It offers top-notch charting tools and a vibrant community space where market enthusiasts can
+              track key upcoming events, chat, chart, and prepare for trades.
+            </p>
+
+        
+            <a href="https://www.tradingview.com/">
+              Tradingview
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="img-box">
+            <img src="images/tradingview.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_section layout_padding mt-2" style="width: 99%;margin: auto; border-radius: 20px;">
     <div class="container  ">
       <div class="heading_container heading_center">
         <h2>
@@ -728,6 +768,12 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
